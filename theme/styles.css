@@ -105,12 +105,12 @@ p.blog {
     /* flex properties */
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
 }
 
 .blogentry {
-    flex: 1 1 200px;
+    flex: 0.5 1 150px;
 
     background-color: white;
     padding: 10px;
